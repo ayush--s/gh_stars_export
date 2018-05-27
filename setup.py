@@ -1,4 +1,5 @@
 import setuptools
+from gh_stars_export import DESCRIPTION
 
 
 with open("README.md", "r") as fh:
@@ -7,11 +8,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="gh_stars_export",
-    version="0.1.0",
+    version="0.1.1",
     author="Ayush Shanker",
     author_email="shankerayush@gmail.com",
-    description="A small example package",
+    description=DESCRIPTION,
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/ayush--s/gh_stars_export",
     packages=setuptools.find_packages(),
     scripts=['gh_stars_export.py'],
