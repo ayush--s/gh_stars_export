@@ -1,5 +1,7 @@
 import setuptools
-from gh_stars_export import DESCRIPTION
+
+
+DESCRIPTION = 'This script exports your github stars to a json file.'
 
 
 with open("README.md", "r") as fh:
