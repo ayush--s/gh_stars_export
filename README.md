@@ -11,14 +11,14 @@ pip install gh_stars_export
 ## usage
 
 ```
-$ gh_starts_export.py -o gh_stars.json --token x35b2rb37x6rbf328xnrr8rxnf23r83f
+$ gh_stars_export.py -o gh_stars.json --token x35b2rb37x6rbf328xnrr8rxnf23r83f
 ```
 
 or 
 ```
 $ export GITHUB_TOKEN=x35b2rb37x6rbf328xnrr8rxnf23r83f
 
-$ gh_starts_export.py -o gh_stars.json
+$ gh_stars_export.py -o gh_stars.json
 ```
 
 optionally, passing `-u/--unstar` also unstars the backed up starred repos.
@@ -26,7 +26,7 @@ optionally, passing `-u/--unstar` also unstars the backed up starred repos.
 ```
 $ export GITHUB_TOKEN=x35b2rb37x6rbf328xnrr8rxnf23r83f
 
-$ gh_starts_export.py -o gh_stars.json --unstar
+$ gh_stars_export.py -o gh_stars.json --unstar
 
 unstarring namhyung/uftrace
 unstarring cybertec-postgresql/pgwatch2
