@@ -5,7 +5,7 @@ Also can optionally unstar all backed up repositories.
 ## install:
 
 ```
-pip install gh_stars_export
+pip3 install gh_stars_export
 ```
 
 ## usage
