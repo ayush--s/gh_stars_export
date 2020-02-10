@@ -1,4 +1,7 @@
 import setuptools
+import sys
+
+assert sys.version_info.major == 3, "gh_stars_export only supports python3"
 
 
 DESCRIPTION = 'This script exports your github stars to a json file.'
