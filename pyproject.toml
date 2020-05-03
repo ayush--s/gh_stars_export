@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gh_stars_export"
+version = "0.2.0"
+description = "This script exports your github stars to a json file."
+authors = ["Ayush Shanker <ayushshanker@outlook.in>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+PyGithub = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+
+[tool.poetry.scripts]
+gh_stars_export = 'gh_stars_export:main'
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
